@@ -1,0 +1,1061 @@
+body {
+  font-family: "Optima";
+  background-color: whitesmoke;
+  margin-bottom: 50px;
+}
+footer {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  width: 100%;
+  border-color: black;
+  border-top: ridge;
+
+  border-color: black;
+  margin: auto;
+
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.linkedIn {
+  text-decoration: none;
+  color: #222;
+}
+
+.footerMain {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.footerWithIn {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 100%;
+  background-color: whitesmoke;
+  align-items: center;
+  justify-content: center;
+}
+.fa-solid {
+  margin-right: 10px;
+  color: #222;
+}
+
+.fa-brands {
+  margin-right: 10px;
+  color: #222;
+}
+nav {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  z-index: 2;
+  border-style: ridge;
+  border-color: black;
+  border-top: none;
+  border-right: none;
+  border-radius: 20px;
+}
+
+.titles {
+  inline-size: 200px;
+  text-align: center;
+  color: black;
+  font-size: 28px;
+  margin-left: 25px;
+}
+.titleDoctor {
+  font-size: 22px;
+}
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+  text-transform: uppercase;
+  font-size: 10px;
+  z-index: 2;
+}
+
+.QualDrop:hover {
+  background-color: white;
+}
+
+nav ul {
+  float: left;
+}
+
+nav ul li {
+  float: left;
+  list-style: none;
+  position: relative;
+}
+
+nav ul li a {
+  display: block;
+  font-family: arial;
+  color: #222;
+  font-size: 12px;
+  padding: 12px 10px;
+}
+
+nav ul li ul {
+  display: none;
+  position: absolute;
+  background-color: white;
+  padding: 4px;
+  border-radius: 0px 4px 4px 4px;
+}
+
+nav ul li:hover ul {
+  display: block;
+}
+
+nav ul li ul li {
+  width: 180px;
+  border-radius: 4px;
+}
+
+nav ul li ul li a {
+  padding: 4px 6px;
+}
+
+nav ul li ul li a:hover {
+  padding: 4px 6px;
+  background-color: rgb(212, 209, 209);
+}
+
+a {
+  text-decoration: none;
+  color: rgb(129, 31, 31);
+}
+
+.mainJuice {
+  display: flex;
+  animation: transitionIn 0.75s;
+  height: 100%;
+  width: 100%;
+  background-color: whitesmoke;
+
+  border-radius: 20px;
+  justify-content: center;
+}
+
+.subJuice {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  column-gap: 20px;
+  margin: 20px;
+}
+
+.PaddedSubJuice {
+  display: flex;
+  margin: auto;
+  align-items: center;
+
+  column-gap: 50px;
+  margin: 20px;
+}
+.aboutMe {
+  width: 300px;
+  color: black;
+}
+
+.photoOne {
+  height: 300px;
+  width: 300px;
+  border-style: ridge;
+  border-color: black;
+  border-radius: 300px;
+  align-content: center;
+}
+
+.licensure {
+  color: black;
+  font-size: 16px;
+  padding-left: 35px;
+  margin-top: 25px;
+}
+
+@keyframes transitionIn {
+  from {
+    opacity: 0;
+    transform: rotateX(-10deg);
+  }
+
+  to {
+    opacity: 1;
+    transform: rotateX(0);
+  }
+}
+
+/* home */
+.photoSpace {
+  margin-top: 100px;
+  margin-right: 50px;
+  margin-left: 150px;
+}
+
+.homeMainJuice {
+  display: flex;
+  animation: transitionIn 0.75s;
+  height: 100%;
+  width: 100%;
+  background-color: whitesmoke;
+  border-radius: 20px;
+  justify-content: center;
+}
+
+.homeSubJuice {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.homeAboutMe {
+  width: 800px;
+
+  margin-left: 10px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  line-height: 1.5;
+  text-align: center;
+}
+.homeHeader {
+  text-align: center;
+  font-size: 28px;
+}
+
+.home-info {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: left;
+  font-size: 18px;
+}
+
+.homePage {
+  height: 400px;
+  width: 400px;
+  border-style: ridge;
+  border-color: black;
+  border-radius: 400px;
+}
+
+.homeRow {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+/* references */
+.refPhotoSpace {
+  width: 100%;
+  margin-top: 100px;
+  margin-left: 200px;
+}
+.refMainJuice {
+  display: flex;
+  animation: transitionIn 0.75s;
+  height: 100%;
+  width: 100%;
+  background-color: whitesmoke;
+  border-radius: 20px;
+}
+
+.refSubJuice {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.refJuice {
+  width: 100%;
+  color: black;
+  margin-bottom: 25px;
+}
+.loneHead {
+  font-size: 50px;
+  margin-top: 100px;
+}
+
+.row {
+  width: 100%;
+}
+
+.mainHead {
+  height: 50px;
+  margin: 0;
+}
+.refHead {
+  font-size: 24px;
+  margin: 30px 0 0 0;
+
+  color: rgb(185, 44, 44);
+}
+
+.refOne {
+  height: 80px;
+  width: 100%;
+  padding: 15px 15px 25px 25px;
+  background-color: whitesmoke;
+  margin: auto;
+  border-radius: 10px;
+  font-size: 24px;
+
+  margin-right: 20px;
+
+  color: black;
+}
+.refOne ul {
+  padding-inline-start: 0px;
+}
+
+.col {
+  margin: 5px;
+}
+
+.refPhoto {
+  height: 500px;
+  width: 500px;
+  border-style: ridge;
+  border-color: black;
+  border-radius: 500px;
+  margin-left: 20px;
+}
+/* goals */
+
+.stateGoals {
+  padding-top: 50px;
+
+  font-size: 26px;
+  color: black;
+}
+.goals {
+  margin: 30px;
+}
+
+.goalHead {
+  font-size: 24px;
+  color: black;
+  margin: auto;
+}
+.goalUL {
+  height: 100x;
+  width: 800px;
+  background-color: whitesmoke;
+  margin: auto;
+  border-radius: 10px;
+  font-size: 20px;
+  margin-right: 100px;
+  color: black;
+}
+
+.liGoals {
+  margin-bottom: 5px;
+}
+
+/* resume highlights */
+.resMainJuice {
+  display: flex;
+  animation: transitionIn 0.75s;
+  height: 100%;
+  width: 100%;
+  background-color: whitesmoke;
+  border-radius: 20px;
+}
+.resSubJuice {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.resPhotoSpace {
+  margin-right: 50px;
+  margin-left: 200px;
+  margin-top: 100px;
+}
+
+.resPhoto {
+  height: 400px;
+  width: 400px;
+  border-style: ridge;
+  border-color: black;
+  border-radius: 400px;
+  margin-left: 20px;
+}
+
+.resumeHighlights {
+  color: black;
+  font-size: 20px;
+  padding-left: 30px;
+  padding-top: 100px;
+  margin-bottom: 25px;
+}
+.resMain {
+  font-size: 40px;
+  padding-left: 100px;
+  color: rgb(189, 180, 180);
+  color: rgb(185, 44, 44);
+}
+
+.eduHead {
+  font-size: 34px;
+  margin: 5px;
+  text-decoration: underline;
+}
+.eduBody {
+  font-size: 24px;
+  margin: 5px;
+}
+
+.headEduTwo {
+  font-size: 14px;
+  text-decoration: none;
+  margin: 5px;
+}
+
+.clinicHead {
+  font-size: 22px;
+  margin: 5px;
+  padding-top: 5px;
+}
+
+.workExp {
+  font-size: 22px;
+  color: rgb(185, 44, 44);
+  margin: 5px;
+  padding-top: 5px;
+  text-decoration: underline;
+}
+.rowTwo {
+  width: 1000px;
+}
+.licensure {
+  margin-left: 15px;
+}
+/* qual buttons */
+
+.qualSpace {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  column-gap: 100px;
+}
+
+.qualDivs {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  column-gap: 100px;
+}
+
+.qualButtonOne {
+  background-color: rgb(129, 31, 31);
+  color: whitesmoke;
+  height: 75px;
+  width: 150px;
+  border-style: ridge;
+  border-radius: 25px;
+  font-size: 20px;
+  transition-duration: 0.4s;
+}
+
+.qualButtonTwo {
+  background-color: rgb(129, 31, 31);
+  color: whitesmoke;
+  height: 75px;
+  width: 150px;
+  border-style: ridge;
+  border-radius: 25px;
+  font-size: 20px;
+  margin-top: 100px;
+  transition-duration: 0.4s;
+}
+
+.qualButtonOne:hover {
+  background-color: rgb(185, 44, 44);
+  color: white;
+}
+
+.qualButtonTwo:hover {
+  background-color: rgb(185, 44, 44);
+  color: white;
+}
+
+/* highlights */
+
+.highMainJuice {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  animation: transitionIn 0.75s;
+  height: 100%;
+  width: 100%;
+  background-color: whitesmoke;
+  border-radius: 20px;
+}
+.highSubJuice {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-right: 10px;
+  height: 100%;
+  width: 100%;
+}
+.HighTitles {
+  width: 100%;
+  color: rgb(185, 44, 44);
+  text-align: center;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.highPhoto {
+  height: 300px;
+  width: 300px;
+  object-fit: scale-down;
+}
+.highPhotoSpace {
+  width: 300px;
+  height: 100%;
+  margin-right: 25px;
+}
+.textWrap {
+  width: 100%;
+  height: 100%;
+  font-size: 24px;
+  line-height: 2;
+}
+.textWrapTwo {
+  width: 100%;
+  height: 100%;
+  font-size: 24px;
+  margin: 0 50px 0 0;
+  text-align: center;
+  line-height: 2;
+}
+.scholarship {
+  font-size: 20px;
+}
+.mission {
+  font-size: 14px;
+
+  text-decoration: none;
+  color: rgb(185, 44, 44);
+}
+.loretta {
+  font-size: 14px;
+
+  text-decoration: none;
+
+  color: rgb(185, 44, 44);
+}
+
+.highHeader {
+  width: 100%;
+  font-size: 40px;
+  text-align: center;
+}
+.highAboutme {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  margin-bottom: 50px;
+  font-size: 20px;
+  line-height: 2;
+}
+.highAboutMeTwo {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  margin-bottom: 50px;
+  font-size: 20px;
+  line-height: 2;
+}
+
+.highHeadTwo {
+  width: 100%;
+  font-size: 40px;
+  text-align: center;
+}
+.interviewLink {
+  width: 100%;
+  font-size: 46px;
+  text-align: center;
+  font-size: 16px;
+
+  color: rgb(185, 44, 44);
+}
+
+/* EOG */
+
+.eogSpace {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  column-gap: 100px;
+}
+
+.eogDivs {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  column-gap: 0px;
+}
+
+.eogButtonOne {
+  background-color: rgb(129, 31, 31);
+  color: whitesmoke;
+  height: 75px;
+  width: 150px;
+  border-style: ridge;
+  border-radius: 25px;
+  font-size: 20px;
+  transition-duration: 0.4s;
+}
+
+.eogButtonTwo {
+  background-color: rgb(129, 31, 31);
+  color: whitesmoke;
+  height: 75px;
+  width: 150px;
+  border-style: ridge;
+  border-radius: 25px;
+  font-size: 20px;
+  margin-top: 50px;
+  transition-duration: 0.4s;
+}
+
+/* Pro Lvl */
+
+.proPhoto {
+  height: 300px;
+  width: 300px;
+  border-style: ridge;
+  border-color: black;
+  border-radius: 300px;
+}
+
+.highPhotoSpace {
+  width: 300px;
+  height: 100%;
+  margin-right: 25px;
+}
+.proTextWrap {
+  width: 100%;
+  height: 100%;
+  margin-right: 50px;
+  font-size: 20px;
+  line-height: 2;
+}
+.textWrapTwo {
+  width: 100%;
+  height: 100%;
+  font-size: 20px;
+  margin: 0 50px 0 0;
+  text-align: center;
+  line-height: 2;
+}
+.textWrapUL {
+  text-align: center;
+  text-decoration: none;
+  color: rgb(185, 44, 44);
+  margin-right: 50px;
+}
+.proUL {
+  text-decoration: none;
+  color: rgb(185, 44, 44);
+  text-align: center;
+}
+.proLI {
+  text-align: left;
+  font-size: 20px;
+  margin-left: 50px;
+  list-style-type: none;
+}
+.proHead {
+  width: 100%;
+  font-size: 40px;
+  margin-right: 50px;
+  text-align: center;
+}
+.proAboutme {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  margin-right: 20px;
+  margin-bottom: 50px;
+  font-size: 20px;
+  line-height: 2;
+}
+.highAboutMeTwo {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  margin-bottom: 50px;
+  font-size: 20px;
+  line-height: 2;
+}
+
+.proHeaderTwo {
+  width: 100%;
+  font-size: 40px;
+  text-align: center;
+}
+.interviewLink {
+  width: 100%;
+  font-size: 46px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  color: rgb(185, 44, 44);
+}
+.interview {
+  text-decoration: none;
+  color: rgb(185, 44, 44);
+}
+
+/* uni level */
+
+.proPhoto {
+  height: 300px;
+  width: 300px;
+  border-style: ridge;
+  border-color: black;
+  border-radius: 300px;
+}
+
+.highPhotoSpace {
+  width: 300px;
+  height: 100%;
+  margin-right: 25px;
+}
+.uniTextWrap {
+  width: 100%;
+  height: 100%;
+  margin-right: 50px;
+  font-size: 24px;
+  line-height: 2;
+  text-indent: 50px;
+}
+
+.uniTextWrapTwo {
+  width: 100%;
+  height: 100%;
+  margin: 0 15px 0 15px;
+  font-size: 20px;
+  line-height: 2;
+}
+
+.MaryGradComp {
+  width: 100%;
+  height: 100%;
+  margin: 0 15px 0 15px;
+  font-size: 18px;
+  line-height: 2;
+  text-indent: 50px;
+  text-align: center;
+}
+.textWrapTwo {
+  width: 100%;
+  height: 100%;
+  font-size: 24px;
+  margin: 0 50px 0 0;
+  text-align: center;
+  line-height: 2;
+}
+.fa-regular,
+.fa-note-sticky,
+.fa-lg {
+  margin-left: 5px;
+  color: rgb(185, 44, 44);
+}
+.uniLvlLI {
+  text-decoration: none;
+  text-align: center;
+  list-style-type: none;
+}
+.uniHeaderTwo {
+  width: 100%;
+  font-size: 40px;
+  text-align: center;
+}
+
+.serviceLI {
+  font-size: 14px;
+}
+span {
+  font-size: 24px;
+  text-decoration: bold;
+}
+.proUL {
+  text-decoration: none;
+  color: rgb(185, 44, 44);
+}
+.proLI {
+  text-align: left;
+  margin-left: 50px;
+}
+
+.headSpan {
+  color: rgb(185, 44, 44);
+  font-size: 28px;
+}
+.progSpan {
+  font-weight: bold;
+  color: rgb(185, 44, 44);
+}
+.proHeader {
+  width: 100%;
+  font-size: 46px;
+  margin-right: 50px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.proHeaderTwo {
+  width: 100%;
+  font-size: 38px;
+  margin-right: 50px;
+  text-align: center;
+}
+.proAboutme {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  margin-right: 20px;
+  margin-bottom: 50px;
+  font-size: 20px;
+  line-height: 2;
+}
+.highAboutMeTwo {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  margin: 0 30px 50px 30px;
+  font-size: 20px;
+  line-height: 2;
+}
+
+.highHeaderTwo {
+  width: 100%;
+  font-size: 48px;
+  text-align: center;
+  text-decoration: underline;
+}
+.interviewLink {
+  width: 100%;
+  font-size: 46px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  color: rgb(185, 44, 44);
+}
+.interview {
+  text-decoration: none;
+  color: rgb(185, 44, 44);
+}
+
+/* proggmatic */
+
+.proPhoto {
+  height: 300px;
+  width: 300px;
+  border-style: ridge;
+  border-color: black;
+  border-radius: 300px;
+}
+
+.highPhotoSpace {
+  width: 300px;
+  height: 100%;
+  margin-right: 25px;
+}
+.uniTextWrap {
+  width: 100%;
+  height: 100%;
+  margin-right: 50px;
+  font-size: 24px;
+  line-height: 2;
+  text-indent: 50px;
+}
+.progLI {
+  list-style-type: none;
+}
+.progTextWrapTwo {
+  width: 100%;
+  height: 100%;
+  margin: 0 30px 30px 5px;
+  font-size: 24px;
+  line-height: 2;
+  font-weight: bolder;
+  text-align: justify;
+}
+.progTextWrapTwo {
+  width: 100%;
+  height: 100%;
+  margin: 0 30px 30px 5px;
+  font-size: 24px;
+  line-height: 2;
+  font-weight: 100;
+  text-align: justify;
+}
+.textWrapTwo {
+  width: 100%;
+  height: 100%;
+
+  font-size: 24px;
+  margin: 0 50px 0 0;
+  text-align: center;
+  line-height: 2;
+}
+
+.progTextLists {
+  margin: 0 30px 10px 15px;
+  font-weight: 100;
+  list-style-type: none;
+}
+.uniLvlLI {
+  text-decoration: none;
+  text-align: center;
+}
+
+.serviceLI {
+  font-size: 14px;
+}
+span {
+  font-size: 24px;
+  text-decoration: bold;
+}
+
+.numbered {
+  font-size: 28px;
+  font-weight: bold;
+  color: rgb(185, 44, 44);
+}
+.proUL {
+  text-decoration: none;
+  color: rgb(185, 44, 44);
+}
+.anchorTitles {
+  color: rgb(185, 44, 44);
+  margin-right: 5px;
+}
+.proLI {
+  text-align: left;
+  margin-left: 50px;
+}
+.fa-regular,
+.fa-note-sticky,
+.fa-sm {
+  color: rgb(185, 44, 44);
+  margin: 0;
+}
+.fa-regular,
+.fa-note-sticky,
+.fa-sm,
+::before {
+  margin-left: 5px;
+}
+.paperLinks {
+  text-align: left;
+  list-style-type: none;
+}
+
+.underPaperLinks {
+  list-style-type: none;
+  text-align: left;
+}
+
+.headSpan {
+  color: rgb(185, 44, 44);
+  font-size: 28px;
+}
+.progSpan {
+  font-weight: bold;
+  color: rgb(185, 44, 44);
+  text-decoration: none;
+}
+.proHeader {
+  width: 100%;
+  font-size: 46px;
+  margin-right: 50px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.proHeaderTwo {
+  width: 100%;
+  font-size: 38px;
+  margin-right: 50px;
+  text-align: center;
+}
+.proAboutme {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  margin-right: 20px;
+  margin-bottom: 50px;
+  font-size: 20px;
+  line-height: 2;
+}
+.highAboutMeTwo {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  margin: 0 30px 50px 30px;
+  font-size: 20px;
+  line-height: 2;
+}
+
+.highHeaderTwo {
+  width: 100%;
+  font-size: 46px;
+  text-align: center;
+  text-decoration: underline;
+}
+.interviewLink {
+  width: 100%;
+  font-size: 46px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  color: rgb(185, 44, 44);
+}
+.interview {
+  text-decoration: none;
+  color: rgb(185, 44, 44);
+}
+
+.docterateHeaders {
+  font-weight: bolder;
+  text-align: left;
+  list-style-type: none;
+}
+
+.progSubJuice {
+  display: flex;
+  justify-content: center;
+
+  margin-right: 10px;
+  height: 100%;
+  width: 100%;
+}
+
+.values {
+  font-weight: 700;
+  text-align: left;
+  list-style-type: none;
+}
